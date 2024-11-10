@@ -390,3 +390,95 @@ body{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .container{
+        width: 280px;
+    }  
+
+    .header-top{
+        font-size: 10px;
+    }
+
+    .inner-wrap .image-section img{
+        width: 300px;
+        transform: translate(-80px,0);
+    }
+
+    .inner-wrap .image-section .sale-section{
+        font-size: 15px;
+        padding: 10px 15px;
+        transform: translate(70px ,0);
+    }
+
+    .inner-wrap .image-section .sale-section span:last-child{
+        font-size: 30px;
+    }
+
+    .section-1 .content-section .title-section h1{
+        font-size: 45px;
+    }
+
+    .section-3 .layout .title h2{
+        font-size: 25px;
+    }
+
+    .section-3 .layout .title p{
+        font-size: 15px;
+    }
+
+    .section-4 .layout .layout-content h2{
+        font-size: 30px;
+    }
+
+    .section-4 .layout .layout-content p{
+        font-size: 18px;
+    }
+
+    .section-5 .content-image .content i{
+        font-size: 30px;
+    }
+
+    .section-5 .content-image .content{
+        transform: translate(0,-20px);
+    }
+
+    .section-5 .content-image .btn-image{
+        transform: translate(45px,30px);
+    }
+
+    .subscribe .layout .input-form input{
+        padding: 15px 20px 15px 20px;
+        font-size: 15px;
+    }
+
+    .subscribe .layout .title{
+        font-size: 30px;
+    }
+
+    .video .image-vd button{
+        transform: translate(-20px,-20px);
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+    .reviews .container-box .box{
+        width: 100%;
+    }
+
+    .reviews .container-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .card-content .phone h2{
+        font-size: 40px;
+    }
+
+    .end-footer .end-1 .content{
+        width: 100%;
+        transform: translate(-80px,0);
+        display: flex;
+        justify-content:space-between;
+    }
+} 
