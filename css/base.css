@@ -101,6 +101,10 @@ body{
         margin-left: 35px;
     }
 
+    .box-wrap2{
+        display: none;
+    }
+
     .hide{
         display: none;
     }
