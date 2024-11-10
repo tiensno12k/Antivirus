@@ -1,3 +1,5 @@
+document.querySelector('.box-navbar i').addEventListener("click", toggleContent);
+
 function toggleContent() {
     var boxWrap = document.querySelector('.box-wrap2')
     if (
@@ -8,5 +10,3 @@ function toggleContent() {
             boxWrap.style.display = "none";
         }
     }
-
-document.querySelector('.box-navbar i').addEventListener("click", toggleContent);
