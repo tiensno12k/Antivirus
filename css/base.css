@@ -17,6 +17,7 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: hidden;
 }
 
 *{
@@ -395,10 +396,14 @@ body{
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .container{
         width: 300px;
-    }  
+    } 
+    
+    header{
+        max-width: 359px;
+    }
 
     .header-top{
         font-size: 10px;
