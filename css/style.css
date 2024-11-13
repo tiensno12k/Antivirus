@@ -1,5 +1,6 @@
-html{
-    scroll-behavior: smooth;
+
+#main{
+    width: 100%;
 }
 
 header{
@@ -98,6 +99,8 @@ header{
 .box-wrap2{
     display: none;
 }
+
+
 
 .section-1{
     width: 100%;
@@ -749,14 +752,3 @@ header{
     font-size: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-    .container{
-        max-width: 960px;
-    }
-
-    .box-contact{
-        display: none;
-    }
-
-    
-}

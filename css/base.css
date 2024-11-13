@@ -196,7 +196,7 @@ body{
     }
 
 }
-/* Smart phone (480 x 640)*/
+
 @media screen and (max-width: 768px) {
     .container{
         max-width: 640px;
@@ -353,15 +353,19 @@ body{
 
 @media screen and (max-width: 480px) {
     .container{
-        width: 400px;
+        max-width: 350px;
+    }
+
+    .box-navbar{
+        transform: translate(-20px,0);
     }
 
     .header-top{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .inner-wrap .image-section img{
-        width: 400px;
+        width: 289px;
         transform: translate(-50px,0);
     }
 
@@ -391,9 +395,9 @@ body{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .container{
-        width: 280px;
+        width: 300px;
     }  
 
     .header-top{
