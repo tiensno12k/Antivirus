@@ -50,6 +50,19 @@ body{
     .section-2 .box-1 .image, .box-2 .image, .box-3 .image{
         width: 300px;
     }
+
+    @keyframes icons {
+        from {
+          width: 100px;
+          height: 100px;
+          opacity: 0.8;
+        }
+        to {
+          width: 140px;
+          height: 140px;
+          opacity: 0;
+        }
+      }
 }
 
 
@@ -394,6 +407,19 @@ body{
     .box-right img{
         width: 100%;
     }
+
+    @keyframes icons {
+        from {
+          width: 80px;
+          height: 80px;
+          opacity: 0.8;
+        }
+        to {
+          width: 130px;
+          height: 130px;
+          opacity: 0;
+        }
+      }
 }
 
 @media screen and (max-width: 360px) {
@@ -490,4 +516,17 @@ body{
         display: flex;
         justify-content:space-between;
     }
+
+    @keyframes icons {
+        from {
+          width: 40px;
+          height: 40px;
+          opacity: 0.8;
+        }
+        to {
+          width: 70px;
+          height: 70px;
+          opacity: 0;
+        }
+      }
 } 

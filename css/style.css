@@ -577,6 +577,36 @@ header{
     cursor: pointer;
 }
 
+.video .image-vd button::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation-duration: 1s;
+    animation-name: icons;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes icons {
+    from {
+      width: 120px;
+      height: 120px;
+      opacity: 0.8;
+    }
+    to {
+      width: 160px;
+      height: 160px;
+      opacity: 0;
+    }
+  }
+
 .video .image-vd button i{
     color: var(--color-one);
 }
